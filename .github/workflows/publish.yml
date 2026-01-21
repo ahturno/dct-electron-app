@@ -3,7 +3,7 @@ name: Publish CLI to npm
 on:
   push:
     branches:
-      - main        # publish on push to main
+      - master        # publish on push to main
   workflow_dispatch: # allows manual trigger
 
 jobs:
